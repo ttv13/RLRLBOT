@@ -187,7 +187,7 @@ if __name__ == "__main__":
     model.learn(total_timesteps=100_000, callback=ProgressCallback(print_interval=1000))
     print("Training completed!")
 
-    model.save("rocket_league_goal_agent")
+    model.save("goofy_agent")
     print("Model updated and saved as rocket_league_goal_agent.zip")
 
     env.close()
