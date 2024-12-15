@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.9.13",
+  "startedAt": "2024-12-15T21:55:45.215102Z",
+  "program": "C:\\Users\\Tom\\Rut_files\\Senior\\Fall\\robot\\final\\RLRLBOT\\example.py",
+  "codePath": "example.py",
+  "git": {
+    "remote": "git@github.com:ttv13/RLRLBOT.git",
+    "commit": "c58c2c6dec7db63b8c8ab1f386bb35e5b887db20"
+  },
+  "email": "ttv13@scarletmail.rutgers.edu",
+  "root": "C:\\Users\\Tom\\Rut_files\\Senior\\Fall\\robot\\final\\RLRLBOT",
+  "host": "DESKTOP-RUIODLB",
+  "executable": "C:\\Users\\Tom\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "codePathLocal": "example.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "999545966592",
+      "used": "821716209664"
+    }
+  },
+  "memory": {
+    "total": "17121382400"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  }
+}

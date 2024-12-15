@@ -1,0 +1,42 @@
+2024-12-15 16:39:19,420 INFO    MainThread:13008 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2024-12-15 16:39:19,420 INFO    MainThread:13008 [wandb_setup.py:_flush():68] Configure stats pid to 13008
+2024-12-15 16:39:19,420 INFO    MainThread:13008 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Tom\.config\wandb\settings
+2024-12-15 16:39:19,420 INFO    MainThread:13008 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Tom\Rut_files\Senior\Fall\robot\final\RLRLBOT\wandb\settings
+2024-12-15 16:39:19,420 INFO    MainThread:13008 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2024-12-15 16:39:19,420 INFO    MainThread:13008 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\Tom\Rut_files\Senior\Fall\robot\final\RLRLBOT\wandb\run-20241215_163919-58hpozy3\logs\debug.log
+2024-12-15 16:39:19,430 INFO    MainThread:13008 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\Tom\Rut_files\Senior\Fall\robot\final\RLRLBOT\wandb\run-20241215_163919-58hpozy3\logs\debug-internal.log
+2024-12-15 16:39:19,430 INFO    MainThread:13008 [wandb_init.py:init():644] calling init triggers
+2024-12-15 16:39:19,430 INFO    MainThread:13008 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'n_proc': 32, 'min_inference_size': 29, 'timestep_limit': 1000000000, 'exp_buffer_size': 150000, 'ts_per_iteration': 50000, 'standardize_returns': True, 'standardize_obs': False, 'policy_layer_sizes': (256, 256, 256), 'critic_layer_sizes': (256, 256, 256), 'ppo_epochs': 1, 'ppo_batch_size': 50000, 'ppo_minibatch_size': 50000, 'ppo_ent_coef': 0.001, 'ppo_clip_range': 0.2, 'gae_lambda': 0.95, 'gae_gamma': 0.99, 'policy_lr': 0.0003, 'critic_lr': 0.0003, 'shm_buffer_size': 8192}
+2024-12-15 16:39:19,430 INFO    MainThread:13008 [wandb_init.py:init():680] starting backend
+2024-12-15 16:39:19,430 INFO    MainThread:13008 [wandb_init.py:init():684] sending inform_init request
+2024-12-15 16:39:19,448 INFO    MainThread:13008 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-15 16:39:19,448 INFO    MainThread:13008 [wandb_init.py:init():697] backend started and connected
+2024-12-15 16:39:19,449 INFO    MainThread:13008 [wandb_init.py:init():790] updated telemetry
+2024-12-15 16:39:19,467 WARNING MsgRouterThr:13008 [router.py:message_loop():75] message_loop has been closed
+2024-12-15 16:39:19,507 INFO    MainThread:13008 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2024-12-15 16:39:19,507 ERROR   MainThread:13008 [wandb_init.py:init():1308] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 1298, in init
+    return wi.init()
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\wandb_init.py", line 824, in init
+    run_init_handle = backend.interface.deliver_run(run)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\interface\interface.py", line 873, in deliver_run
+    return self._deliver_run(run_record)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 460, in _deliver_run
+    return self._deliver_record(record)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 455, in _deliver_record
+    handle = mailbox._deliver_record(record, interface=self)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\mailbox.py", line 451, in _deliver_record
+    interface._publish(record)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\sock_client.py", line 222, in send_record_publish
+    self.send_server_request(server_req)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\Tom\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

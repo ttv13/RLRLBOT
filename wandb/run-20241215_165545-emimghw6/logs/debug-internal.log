@@ -1,0 +1,17 @@
+{"time":"2024-12-15T16:55:45.2212274-05:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-15T16:55:45.2212274-05:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\Tom\\Rut_files\\Senior\\Fall\\robot\\final\\RLRLBOT\\wandb\\run-20241215_165545-emimghw6\\logs\\debug-core.log"}
+{"time":"2024-12-15T16:55:45.5632939-05:00","level":"INFO","msg":"created new stream","id":"emimghw6"}
+{"time":"2024-12-15T16:55:45.5638026-05:00","level":"INFO","msg":"stream: started","id":"emimghw6"}
+{"time":"2024-12-15T16:55:45.5638026-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"emimghw6"}
+{"time":"2024-12-15T16:55:45.5638026-05:00","level":"INFO","msg":"handler: started","stream_id":"emimghw6"}
+{"time":"2024-12-15T16:55:45.5638026-05:00","level":"INFO","msg":"sender: started","stream_id":"emimghw6"}
+{"time":"2024-12-15T16:55:45.8229973-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-15T16:57:19.1511687-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-15T16:57:19.1521934-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-15T16:57:19.5883961-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-15T16:57:19.7257416-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-12-15T16:57:20.7499236-05:00","level":"INFO","msg":"stream: closing","id":"emimghw6"}
+{"time":"2024-12-15T16:57:20.7499236-05:00","level":"INFO","msg":"handler: closed","stream_id":"emimghw6"}
+{"time":"2024-12-15T16:57:20.7499236-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"emimghw6"}
+{"time":"2024-12-15T16:57:20.7499236-05:00","level":"INFO","msg":"sender: closed","stream_id":"emimghw6"}
+{"time":"2024-12-15T16:57:20.7499236-05:00","level":"INFO","msg":"stream: closed","id":"emimghw6"}

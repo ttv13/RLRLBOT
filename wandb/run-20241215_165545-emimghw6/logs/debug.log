@@ -1,0 +1,29 @@
+2024-12-15 16:55:45,197 INFO    MainThread:24204 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2024-12-15 16:55:45,197 INFO    MainThread:24204 [wandb_setup.py:_flush():68] Configure stats pid to 24204
+2024-12-15 16:55:45,197 INFO    MainThread:24204 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Tom\.config\wandb\settings
+2024-12-15 16:55:45,197 INFO    MainThread:24204 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Tom\Rut_files\Senior\Fall\robot\final\RLRLBOT\wandb\settings
+2024-12-15 16:55:45,197 INFO    MainThread:24204 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2024-12-15 16:55:45,197 INFO    MainThread:24204 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\Tom\Rut_files\Senior\Fall\robot\final\RLRLBOT\wandb\run-20241215_165545-emimghw6\logs\debug.log
+2024-12-15 16:55:45,198 INFO    MainThread:24204 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\Tom\Rut_files\Senior\Fall\robot\final\RLRLBOT\wandb\run-20241215_165545-emimghw6\logs\debug-internal.log
+2024-12-15 16:55:45,198 INFO    MainThread:24204 [wandb_init.py:init():644] calling init triggers
+2024-12-15 16:55:45,198 INFO    MainThread:24204 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'n_proc': 32, 'min_inference_size': 29, 'timestep_limit': 1000000000, 'exp_buffer_size': 150000, 'ts_per_iteration': 50000, 'standardize_returns': True, 'standardize_obs': False, 'policy_layer_sizes': (256, 256, 256), 'critic_layer_sizes': (256, 256, 256), 'ppo_epochs': 1, 'ppo_batch_size': 50000, 'ppo_minibatch_size': 50000, 'ppo_ent_coef': 0.001, 'ppo_clip_range': 0.2, 'gae_lambda': 0.95, 'gae_gamma': 0.99, 'policy_lr': 0.0003, 'critic_lr': 0.0003, 'shm_buffer_size': 8192}
+2024-12-15 16:55:45,198 INFO    MainThread:24204 [wandb_init.py:init():680] starting backend
+2024-12-15 16:55:45,198 INFO    MainThread:24204 [wandb_init.py:init():684] sending inform_init request
+2024-12-15 16:55:45,215 INFO    MainThread:24204 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-15 16:55:45,215 INFO    MainThread:24204 [wandb_init.py:init():697] backend started and connected
+2024-12-15 16:55:45,216 INFO    MainThread:24204 [wandb_init.py:init():790] updated telemetry
+2024-12-15 16:55:45,268 INFO    MainThread:24204 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2024-12-15 16:55:45,817 INFO    MainThread:24204 [wandb_init.py:init():874] starting run threads in backend
+2024-12-15 16:55:46,175 INFO    MainThread:24204 [wandb_run.py:_console_start():2374] atexit reg
+2024-12-15 16:55:46,175 INFO    MainThread:24204 [wandb_run.py:_redirect():2224] redirect: wrap_raw
+2024-12-15 16:55:46,176 INFO    MainThread:24204 [wandb_run.py:_redirect():2289] Wrapping output streams.
+2024-12-15 16:55:46,176 INFO    MainThread:24204 [wandb_run.py:_redirect():2314] Redirects installed.
+2024-12-15 16:55:46,178 INFO    MainThread:24204 [wandb_init.py:init():916] run started, returning control to user process
+2024-12-15 16:57:19,151 INFO    MainThread:24204 [wandb_run.py:_finish():2100] finishing run ttv13-rutgers-university/rlgym-ppo/emimghw6
+2024-12-15 16:57:19,151 INFO    MainThread:24204 [wandb_run.py:_atexit_cleanup():2339] got exitcode: 0
+2024-12-15 16:57:19,151 INFO    MainThread:24204 [wandb_run.py:_restore():2321] restore
+2024-12-15 16:57:19,151 INFO    MainThread:24204 [wandb_run.py:_restore():2327] restore done
+2024-12-15 16:57:20,741 INFO    MainThread:24204 [wandb_run.py:_footer_history_summary_info():3892] rendering history
+2024-12-15 16:57:20,742 INFO    MainThread:24204 [wandb_run.py:_footer_history_summary_info():3924] rendering summary
+2024-12-15 16:57:20,748 INFO    MainThread:24204 [wandb_run.py:_footer_sync_info():3853] logging synced files

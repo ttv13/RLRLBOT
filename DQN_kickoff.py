@@ -11,6 +11,8 @@ from rlgym.utils.terminal_conditions.common_conditions import TimeoutCondition, 
 from rlgym.utils.reward_functions import RewardFunction
 from rlgym.utils.action_parsers.default_act import DefaultAction
 
+
+
 class GoalReward(RewardFunction):
     def reset(self, initial_state):
         self.previous_ball_position = initial_state.ball.position
@@ -67,7 +69,6 @@ def make_env():
             action_parser=ActionRepeatParser(),
             terminal_conditions=[TimeoutCondition(300), GoalScoredCondition()],
             game_speed=100,
-            headless=True  
         )
     return _init
 
